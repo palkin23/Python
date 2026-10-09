@@ -1,4 +1,7 @@
 marks=int(input('Enter marks: '))
+if marks>100:
+    print("Verify marks again")
+exit()
 if(marks>=90 and marks<=100):
     grade='A'
 elif(marks>=80 and marks<=89):
