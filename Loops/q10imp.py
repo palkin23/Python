@@ -1,0 +1,9 @@
+import time
+wait_time=1
+attempts=0
+max_tries=5
+while(attempts<max_tries):
+    print("Attempt: ",attempts+1," Wait Time: ",wait_time)
+    time.sleep(wait_time)
+    wait_time*=2
+    attempts+=1
