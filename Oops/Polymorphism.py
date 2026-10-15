@@ -2,7 +2,7 @@ class Car:
     def __init__(self,brand,model):
         self.brand=brand
         self.model=model
-        def fuel_type(self):
+    def fuel_type(self):
             return "petrol" or "Diesel"
 class Electric_Car(Car):
     def __init__(self,brand,model,battery_size):
@@ -12,3 +12,5 @@ class Electric_Car(Car):
         return "Electric Charge"
 myTesla=Electric_Car("Tesla","Model S","85KWh")
 print(myTesla.fuel_type())
+Safari=Car("Tata","Safari")
+print(Safari.fuel_type())
