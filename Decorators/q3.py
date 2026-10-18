@@ -18,5 +18,6 @@ print(long_running_func(2,3))
 print(long_running_func(4,3))
 #o/p first {} because 4 sec buffer nothing excecuted
 #so empty {}-long running func
+#decorators
 #then after 4sec -2 times 5
 #then after 4 sec-7
