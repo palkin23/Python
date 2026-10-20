@@ -29,12 +29,12 @@ def add_video(videos):
     save_data_helper(videos)
 
 def update_video(videos):
-    list_all_videos(videos)
+    list_all_videos(videos)  #so that user can see all videos 
     index = int(input("Enter the video number to update"))
     if 1 <= index <= len(videos):
         name = input("Enter the new video name")
         time = input("Enter the new video time")
-        videos[index-1] = {'name':name, 'time': time}
+        videos[index-1] = {'name':name, 'time': time}  #index-1 as usser gave in print index from 1 but actual indexing is from 0
         save_data_helper(videos)
     else:
         print("Invalid index selected")
