@@ -18,7 +18,7 @@ def list_all_videos(videos):
     print("\n")
     print("*" * 70)
     for index, video in enumerate(videos, start=1):
-        print(f"{index}. {video['name']}, Duration: {video['time']} ")
+        print(f"{index}., Video Title:{video['name']}, Duration: {video['time']} ")
     print("\n")
     print("*" * 70)
 
@@ -83,4 +83,3 @@ if __name__ ==  "__main__":
 #if __name__ == "__main__": is a conditional statement used to check whether a Python file 
 # is being executed directly or imported as a module.
 #  The code inside it executes only when the file is run directly
-
