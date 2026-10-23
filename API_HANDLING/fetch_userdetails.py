@@ -3,7 +3,7 @@ import requests
 def fetch_user_random_freeapi():
     url="https://api.freeapi.app/api/v1/public/randomusers/user/random"
     response=requests.get(url)
-    data=response.json() #convert respnse into json data
+    data=response.json() #convert response into json data
 
     if data["success"] and "data" in data:
         user_data=data["data"]
