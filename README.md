@@ -18,7 +18,4 @@ I'm currently learning Python through **Chai aur Code** and gradually moving tow
 - Exception Handling
 - Modules and Packages
 - Virtual Environments
--Jupyter
-
-
----
+- Jupyter Notebook and JupyterLab
